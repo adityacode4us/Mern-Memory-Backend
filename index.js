@@ -17,7 +17,8 @@ app.get('/',(req,res)=>{
   res.send("Welcome");
 });
 
-const CONNECTION_URL = 'mongodb+srv://js_mastery:123123123@practice.jto9p.mongodb.net/test';
+// const CONNECTION_URL = 'mongodb+srv://js_mastery:123123123@practice.jto9p.mongodb.net/test';
+const CONNECTION_URL = 'mongodb+srv://aditya:yp0csJIVXM4OLJh1@cluster0.evd0qlc.mongodb.net/?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
